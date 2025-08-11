@@ -1,0 +1,64 @@
+/* General body styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card shadow effect */
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Page heading */
+h1, h2 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* Search bar styling */
+form input[type="text"] {
+    border-radius: 6px 0 0 6px;
+}
+
+form button {
+    border-radius: 0 6px 6px 0;
+}
+
+/* Pagination customization */
+.pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.pagination .page-link {
+    color: #0d6efd;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+}
+
+/* Post content spacing */
+.card-text {
+    line-height: 1.6;
+}
+
+/* Footer (if you add one later) */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    color: #6c757d;
+    font-size: 14px;
+}
